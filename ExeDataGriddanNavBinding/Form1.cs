@@ -29,7 +29,18 @@ namespace ExeDataGriddanNavBinding
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if 
+            if (txtUsername.Text=="erdawyne" && txtPassword.Text=="12345")
+            {
+                new Form2().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Username dan Password anda salah, ulangi!!");
+                txtUsername.Clear();
+                txtPassword.Clear();
+                txtUsername.Focus();
+            }
         }
     }
 }

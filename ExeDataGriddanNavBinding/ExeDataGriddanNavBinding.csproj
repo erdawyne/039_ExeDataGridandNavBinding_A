@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\jangkar.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

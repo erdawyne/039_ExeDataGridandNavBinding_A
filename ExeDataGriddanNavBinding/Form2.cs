@@ -16,5 +16,10 @@ namespace ExeDataGriddanNavBinding
         {
             InitializeComponent();
         }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
+        }
     }
 }
